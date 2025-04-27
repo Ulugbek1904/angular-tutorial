@@ -1,0 +1,24 @@
+.todo-list {
+    list-style-type: none;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #c4bdbd;
+}
+.todo-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.todo-item:last-child {
+    border-bottom: none;
+}
